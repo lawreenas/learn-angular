@@ -1,0 +1,471 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"catego",
+				"categoryIds"
+			],
+			[
+				"bu",
+				"budgets"
+			],
+			[
+				"S",
+				"SharedData"
+			],
+			[
+				"acc",
+				"accountId"
+			],
+			[
+				"spe",
+				"spentPercentage"
+			],
+			[
+				"tex",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "script.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"theme",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"c",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 516.0
+	},
+	"console":
+	{
+		"height": 218.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/laurynas/source/inventi-mokymai/learn-angular"
+	],
+	"file_history":
+	[
+		"/etc/hosts",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/etc/hosts",
+		"/private/etc/hosts",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/automation/js/automation.js",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/automation/css/automation.css",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/lib/automation/automation-module.js",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/lib/automation/automation-model.js",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-webapps/portalserver/target/portalserver/static/launchpad/lib/automation.js",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/target/launchpad/static/launchpad/lib/automation.js",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/lib/automation.js",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/donut-category-chart/js/donut-category-chart.js",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-services/launchpad-integration-services/cross-channel/authentication/authentication.iml",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/support/angular/angular-ui-bootstrap.js",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-webapps/demo-services/api-data-structures/accounts.json",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/donut-category-chart/css/donut-category-chart.css",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-webapps/portalserver/target/portalserver/static/backbase.com.2012.components/html/dropdown/dropdown-options.html",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/clean-dbs.bat",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-services/launchpad-integration-services/foundation/provider-demo-dataloader/target/classes/incomingPaymentDescriptions.txt",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-tests/integration-tests/src/test/support/casperjs-1.1-beta2/docs/extending.rst",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-services/launchpad-integration-services/servicing/payment-order/payment-order-provider-demo/payment-order-provider-demo.iml",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/lib/payments/p2p-enrollment.js",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/test/spec-runner.html",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-webapps/launchpad-data/orchestrator/to-self-publishchains.xml",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/build-skip-tests.sh",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/finances/config.xml",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/target/launchpad/static/launchpad/widgets/finances/css/finances.css",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/finances/css/finances.css",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/support/fix-ie-css-limit.min.js",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-theme/webapp/docs-v1/fontawesome.jsp",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-webapps/portalserver/target/classes/import/launchpad/widgets/launchpad-finances-config.xml",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/finances/launchpad-finances.iml",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-services/launchpad-integration-services/market-data/iban/iban.iml",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-webapps/portalserver/target/portalserver/WEB-INF/dashboard/index-newclient.jsp",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-theme/node_modules/less/test/less/errors/property-interp-not-defined.less",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-utils/launchpad-phonegap/app/www/index.html",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/secure-messaging/launchpad-secure-messaging.iml",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/secure-messaging/css/secure-messaging.css",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/secure-messaging/partials/message-content.html",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/secure-messaging/partials/message-new.html",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/secure-messaging/partials/message-none.html",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/secure-messaging/data/messages.json",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/secure-messaging/js/messagesproviderservice:",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/secure-messaging/config.xml",
+		"/Users/laurynas/Documents/LS.lt/index.html",
+		"/Users/laurynas/source/backbase/fig.yml",
+		"/Users/laurynas/.bash_profile",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/gr",
+		"/Users/laurynas/source/backbase/launchpad/e-banking-widgets/launchpad-view/launchpad-items/webapp/static/launchpad/widgets/secure-messaging/js/secure-messaging.js",
+		"/Users/laurynas/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"splice",
+			"_sort",
+			"createBudget",
+			"return",
+			"budgetsManager",
+			"loadAll",
+			"budgetsManager",
+			"Budget",
+			"loadAll",
+			"BudgetsResource",
+			"loadAll",
+			"create",
+			"SharedData",
+			"_loadBudgets",
+			"loadAll",
+			"Create",
+			"create",
+			"budgetsManager",
+			"name",
+			"categoriesDataSrc",
+			"CategoriesResource",
+			"accountsDataSrc",
+			"AccountsResource",
+			"budget",
+			"create",
+			"directi",
+			"option",
+			"MSG_AUTOSAVE_TIMEOUT",
+			"each",
+			"for",
+			"foreach",
+			"addToList",
+			"SAVE_SUC",
+			"items",
+			"MSG_AUTOSAVE_TIMEOUT",
+			"SAVE",
+			"SAVED",
+			"DRAFT_SA",
+			"alerts =",
+			"alerts",
+			"removeFromList",
+			"create",
+			"designe",
+			"controll",
+			"clearTimeout"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "learn-angular.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"automation",
+				"launchpad-view/launchpad-items/webapp/static/launchpad/lib/automation.js"
+			],
+			[
+				"donut",
+				"launchpad-view/launchpad-items/webapp/static/launchpad/widgets/donut-category-chart/js/donut-category-chart.js"
+			],
+			[
+				"finance",
+				"launchpad-view/launchpad-items/webapp/static/launchpad/widgets/finances/css/finances.css"
+			],
+			[
+				"new",
+				"partials/message-new.html"
+			],
+			[
+				"list",
+				"partials/message-list.html"
+			],
+			[
+				"css",
+				"css/secure-messaging.css"
+			],
+			[
+				"mess",
+				"data/messages.json"
+			],
+			[
+				"none",
+				"partials/message-none.html"
+			],
+			[
+				"ine",
+				"index.html"
+			],
+			[
+				"content",
+				"partials/message-content.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"js",
+				"js/secure-messaging.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/source/inventi-mokymai/angular/inventi-project/angular.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+		],
+		"width": 921.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 295.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

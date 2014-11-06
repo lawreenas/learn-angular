@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 
 <head>
     <link rel="stylesheet" href="/lib/bootstrap.min.css" />
@@ -11,17 +11,65 @@
 </head>
 
 <body>
-    <div>
+    <div class="ng-cloak" ng-controller="MainCtrl">
         <div class="container">
-            <h3>Project backlog</h3>       
+            <h3>Project backlog</h3>
+            <button class="btn btn-danger" ng-click="create('Bug')">Report a bug</button>
+            <button class="btn btn-success" ng-click="create('Feature')">Request a feature</button>
+
             <table class="table table-striped">
                 <thead>
+                    <th>Type</th>
+                    <th>Title</th>
+                    <th>Story points</th>                    
+                    <th>Created date</th>
+                    <th>Actions</th>
                 </thead>
-                <tbody>
-                    <tr>
+                <tbody ng-repeat="issue in issues">
+                    <tr >
+                        <td>
+                            <span class="label label-danger" ng-if="issue.type === 'Bug'">BUG</span>
+                            <span class="label label-success" ng-if="issue.type === 'Feature'">FEATURE</span>
+                        </td>
+                        <td>{{issue.title}}</td>
+                        <td>{{issue.storypoints}}</td>
+                        <td>{{issue.created | date:'yyyy/MM/dd HH:mm'}}</td>
+                        <td>
+                            <button class="btn btn-danger" ng-click="delete(issue)">Delete</button>
+                            <button class="btn btn-link" ng-click="edit(issue)">Edit</button>
+                            <button class="btn btn-link" ng-click="show(issue)">Show</button>
+                        </td>
+                    </tr>
+                    <tr ng-if="issue.show">
+                        <td colspan="5">
+                            <label> Description</label>
+                            <blockquote>
+                                <p>{{issue.description}}</p>
+                            </blockquote>
+                        </td>
                     </tr>
                 </tbody>
-            </table> 
+            </table>
+
+            <div ng-if="selectedIssue !== null">
+                <h3>New Issue</h3>
+                <form name="newIssueForm" ng-submit="newIssueForm.$valid && save(selectedIssue)" novalidate>
+                  <div class="form-group">
+                        <label for="issueTitle">Title</label>
+                        <input id="issueTitle" ng-model="selectedIssue.title" placeholder="Enter title" class="form-control" required></input>
+                    </div>
+                    <div class="form-group">
+                        <label for="issueSp">Story points</label>
+                        <input id="issueSp" ng-model="selectedIssue.storypoints" placeholder="Enter story points" class="form-control" required></input>
+                    </div>
+                    <div class="form-group">
+                        <label for="issueDesc">Story points</label>
+                        <textarea id="issueDesc" ng-model="selectedIssue.description" placeholder="Enter description" class="form-control" ></textarea>
+                    </div>
+                    <br/>
+                    <button class="btn btn-primary" type="submit">Save</button>
+                </form>
+            </div>    
         </div>
     </div>
 </body>
